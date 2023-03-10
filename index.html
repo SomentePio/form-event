@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form event</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="pages">
+     <header>
+       <h1>Create and share your event</h1>
+       <p>But first we need some information about your event.</p>
+      </header>
+      
+      <form>
+        <div class="fildset-wrapper">
+        
+          <fieldset>
+            <legend>Event information</legend>
+
+            <div class="input-wrapper">
+              <label for="event-title">Event Title<span>(min 8 charecters)</span></label>
+              <input type="text" id="event-title">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="event-link">Event link<span>(start with https://)</span></label>
+              <input type="text" id="event-link">
+            </div>
+
+          </fieldset>
+          
+      </div>
+      </form>
+  </div>
+    
+</body>
+
+<script src="./script.js"></script>
+</html>
