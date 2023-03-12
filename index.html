@@ -22,26 +22,98 @@
        <p>But first we need some information about your event.</p>
       </header>
       
-      <form>
-        <div class="fildset-wrapper">
+      <form id="my-form">
         
-          <fieldset>
+        <fieldset>
+          <div class="fildset-wrapper">
             <legend>Event information</legend>
 
             <div class="input-wrapper">
               <label for="event-title">Event Title<span>(min 8 charecters)</span></label>
-              <input type="text" id="event-title">
+              <input type="text" id="event-title" required minlength="8">
             </div>
 
             <div class="input-wrapper">
               <label for="event-link">Event link<span>(start with https://)</span></label>
               <input type="text" id="event-link">
             </div>
-
-          </fieldset>
           
-      </div>
+            <div class="input-wrapper">
+              <label for="whatsapp">Whatsapp number<span>(use only numbers)</span></label>
+              <input type="number" id="whatsapp">
+            </div>
+          
+            <div class="input-wrapper">
+              <label for="extraInformation">Extra information</label> 
+              <textarea id="extraInformation"></textarea>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="eventCategory">Category</label>
+              <select id="eventCategory">
+                <option value="empty">--</option>
+                <option value="live">Live</option>
+                <option value="on-line">On-line</option>
+                <option value="podcast">Podcast</option>
+              </select>
+
+            </div>
+
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div class="fildset-wrapper">
+            <legend>Event Privacy</legend>
+
+            <div class="input-wrapper">
+              <label for="email">Event e-mail<span>(valid e-mail)</span></label>
+              <input type="email" id="email">
+            </div>
+           
+            <div class="input-wrapper">
+              <label for="password">Password<span>(min 8 charecters)</span></label>
+              <input type="password" id="password" required minlength="8">
+            </div>
+           
+            <div class="checkbox-wrapper">
+              <input type="checkbox" id="checkbox">
+              <label for="checkbox">Event privacy</label>
+            </div>
+
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div class="fildset-wrapper">
+             <legend>Date and Time</legend>
+
+            <div class="col-3">
+              <div class="input-wrapper">
+                <label for="date">Date</label>
+                <input type="date" id="Date">
+              </div>
+            
+              <div class="input-wrapper">
+                <label for="start">Start</label>
+                <input type="time" id="start">
+              </div>
+            
+              <div class="input-wrapper">
+                <label for="end">End</label>
+                <input type="time" id="end">
+              </div>
+            </div>
+
+          </div>
+        </fieldset>
+        
       </form>
+     
+      <footer>
+        <input form="my-form" class="buttons" type="submit" value="Save Event">
+
+      </footer>
   </div>
     
 </body>
