@@ -147,7 +147,12 @@ form fieldset legend {
 
 }
 
-.input-wrapper input, .input-wrapper textarea, .input-wrapper select {
+.input-wrapper input,
+.input-wrapper textarea,
+.input-wrapper select,
+.input-wrapper date,
+.input-wrapper time
+{
   background: var(--bg-light);
 
   border: 1px solid var(--border-color);
@@ -242,6 +247,15 @@ footer {
   margin-bottom: 100px;
 
   border-top: 2px solid var(--border-color);
+}
+
+.col-3 input[type="date"], input[type="time"] {
+ 
+  font-family: 'Poppins' , sans-serif;
+  font-weight: 400;
+  appearance: none;
+  -webkit-appearance: none;
+
 }
 
 .buttons {
