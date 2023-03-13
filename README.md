@@ -29,7 +29,7 @@
 <br>
 <p>Exercise building a event form to practice types os inputs and validation</p>
 
-<a href="https://somentepio.github.io/treine.me" target="_blank">Here you can check the project online</a>
+<a href="https://somentepio.github.io/form-event" target="_blank">Here you can check the project online</a>
 <br>
 <!-- <a href="https://www.figma.com/community/file/1214679726391393976" target="_blank">Here you can check the figma file</a> -->
 
