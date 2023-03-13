@@ -27,7 +27,7 @@
 
 <h1>💻 Overview</h1>
 <br>
-<p>Exercise building a event form to practice types os inputs and validation</p>
+<p>Building an event form to practice types of inputs and validation</p>
 
 <a href="https://somentepio.github.io/form-event" target="_blank">Here you can check the project online</a>
 <br>
